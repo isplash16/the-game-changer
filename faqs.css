@@ -1,304 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap');
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: black !important;
-    
-    
+body {
+  background-color: black !important;
 }
 @media only screen and (min-width: 768px) {
-    body{
-        height: auto;
-    }
+  body {
+    height: auto;
+  }
 }
-h2{
-    font-family: 'poppins' !important;
-    color: white !important;
-    font-size: 4vh !important;
-    transition: all 0.3s ease;
-    cursor: pointer;
+h2 {
+  font-family: "poppins" !important;
+  color: white !important;
+  font-size: 4vh !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-h2:hover{
-    color: #ff2424 !important;
+h2:hover {
+  color: #ff2424 !important;
 }
 /* NAVBAR CSS */
-nav{
-    box-shadow: 0px 0px 2px white;
-    
-    
+nav {
+  box-shadow: 0px 0px 2px white;
 }
-.navbar .faqs{
-    color: cyan !important;
-    background: black;
-    border: cyan 2px solid;
-    border-radius: 5px;
+.navbar .faqs {
+  color: cyan !important;
+  background: black;
+  border: cyan 2px solid;
+  border-radius: 5px;
 }
-.navbar div{
-    font-weight: lighter;
-    font-family: 'bebas neue';
-    justify-content: space-around !important;
-    
+.navbar div {
+  font-weight: lighter;
+  font-family: "bebas neue";
+  justify-content: space-around !important;
 }
-.navbar-brand{
-    background-color: black;
-    border: 2px cyan solid;
-    border-radius: 5px;
-    transition: all 0.8s ease;
+.navbar-brand {
+  background-color: black;
+  border: 2px cyan solid;
+  border-radius: 5px;
+  transition: all 0.8s ease;
 }
-.navbar-brand:hover{
-    border-color: #ff2424;
+.navbar-brand:hover {
+  border-color: #ff2424;
 }
 
-.navbar a{
-    transition: all 0.8s ease;
-    font-size: 2vh;
+.navbar a {
+  transition: all 0.8s ease;
+  font-size: 2vh;
 }
-.collapse{
-    justify-content: space-between;
+.collapse {
+  justify-content: space-between;
 }
-.navbar a:hover{
-    
-    color: #ff2424 !important;
+.navbar a:hover {
+  color: #ff2424 !important;
 }
-.account{
-    text-align: center;
+.account {
+  text-align: center;
 }
-.account .btn{
-    background: transparent;
-    background: black;
-    color: cyan;
-    border: cyan solid 2px;
-    transition: all 0.8s ease;
+.account .btn {
+  background: transparent;
+  background: black;
+  color: cyan;
+  border: cyan solid 2px;
+  transition: all 0.8s ease;
 }
-.account .btn:hover{
-    color:#ff2424;
-    border-color: #ff2424;
+.account .btn:hover {
+  color: #ff2424;
+  border-color: #ff2424;
 }
-.cart-button{
-    color: cyan !important;
-    align-items: center;
-    text-align: center;
-    font-size: 4vh;
-    background-color: black !important;
-    border: solid 2px cyan !important;
-    transition: all 0.8s ease;
-  }
-  .cart-button:hover{
-    color: #ff2424;
-    background-color: transparent !important;
-    border: solid 2px #ff2424 !important;
-  }
+.cart-button {
+  color: cyan !important;
+  align-items: center;
+  text-align: center;
+  font-size: 4vh;
+  background-color: black !important;
+  border: solid 2px cyan !important;
+  transition: all 0.8s ease;
+}
+.cart-button:hover {
+  color: #ff2424;
+  background-color: transparent !important;
+  border: solid 2px #ff2424 !important;
+}
 /*END OF NAVBAR CSS*/
- /* FOOTER */
- .footer{
-    border-top: white solid 3px;
-    background-color: black !important;
-  }
-  .logo-company{
-    padding: 1vh;
-  }
-  .social-links{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1vh;
-   
-  }
-  .social-links h3{
-    text-align: center;
-    font-family: 'bebas neue';
-    font-size: 2vh;
-    padding-left: 1vh;
-    align-self: center;
-    color: white;
-  }
-  .social-links ul{
-    text-decoration: none;
-    list-style: none;
-    display: inline-flex;
-    align-self: center;
-  }
-  .social-links li{
-    padding-right: 2vh;
-  }
-  .social-links a{
-    color: cyan;
-    font-size: 3vh;
-    transition: all 0.8s ease;
-  }
-  .social-links a:hover{
-    color: #ff2424;
-  }
-  /* NEWSLETTER SUBSCRIPTION */
-  .newsletter {
-    
-    background:cyan !important;
-    border: black 1vh solid;
-    border-radius: 10px !important;
-    
-    height: 80%;
-    }
-    
-    .newsletter .content {
-    max-width: 650px;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; }
-
-    .newsletter .content h2 {
-    color: black !important;
-    border: cyan 3px solid;
-    font-family: 'black ops one';
-
-    margin-bottom: 40px; }
-    .newsletter .content .form-control {
-    height: 50px;
-    border-color: #ffffff;
-    border-radius:0;
-    margin-bottom: 0.5vh;
-    }
-    .newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #243c4f;
-    }
-    .newsletter .content .btn {
-    min-height: 50px; 
-    border-radius:0;
-    background: #ff2424 !important;
-    color: #fff;
-    font-weight:600;
-    }
-    /* USEFUL LINKS */
-    .links{
-        padding: 1vh;
-        text-align: center;
-        justify-content: center;
-    }
-  
-    .links li{
-        color: white;
-        font-family: 'bebas neue';
-        list-style: none;
-        border-bottom: black 2px solid;
-    }
-    .links li a{
-        display: block;
-        text-decoration: none;
-        color: white;
-        
-        transition: all 0.3s ease;
-    }
-    .links li a:hover{
-        color: cyan;
-    }
-    .links h6{
-        color: black !important;
-        font-family: 'bebas neue';
-        background-color: white;
-        text-align: center !important;
-    }
-    .allrights{
-        background-color: black !important;
-    }
-    .allrights h6{
-        font-family: 'bebas neue';
-        letter-spacing: 0.5em;
-        
-    }
-    .footer-contacts, .footer-links{
-        background-color: #ff2424;
-    }
-    /* END OF FOOTER CSS */
-
-    /* ACCORDION CSS */
-    .accordion {
-        border: black !important;
-    }
-    .accordion-button{
-        border: #243c4f 5px solid !important;
-        background-color: black !important;
-        color: white !important;
-        text-align: center;
-    }
-    /* END OF ACCORDION CSS */
-    /* HELP CATEGORIES CSS */
-    .help-button button{
-        width: 100%!important;
-        color: white !important;
-        border: cyan 2px solid;
-        margin-top: 0.5vh;
-        margin-bottom: 0.5vh;
-        border-radius: 20px;
-        font-family: 'bebas neue';
-        background-color: transparent;
-        display: flex;
-        justify-content: space-between;
-        padding: 2vh;
-        font-size: 3vh;
-        align-items: center;
-        letter-spacing: 0.5vh;
-        transition: all 0.3s ease;
-    }
-    .help-button button:hover{
-        color: #ff2424 !important;
-        background-color: #243c4f;
-    }
-    .help-button a{
-        text-decoration: none;
-        
-    }
-    /* CONTACT US BUTTON */
-    .contact-wrapper{
-        border: 3px cyan solid;
-    }
-    .contact-wrapper .click-here{
-        font-size: 3vh;
-        width: 5vh;
-        height: 5vh;
-        
-        border-radius: 100%;
-        display: inline-block;
-        border: cyan solid 3px;
-        background: transparent;
-        color: cyan;
-        transition: all 0.3s ease;
-        
-    }
-    .contact-wrapper .click-here:hover{
-        color: #ff2424;
-        border-color: #ff2424;
-        background-color: white;
-    }
-    .contact-button-area label{
-        font-family: 'bebas neue';
-        font-weight: 800;
-        
-        font-size: 3vh;
-        text-shadow: 3px 0px 50px rgba(255, 255, 255, 0.5);
-        letter-spacing: 0.5vh;
-        
-    }
-    .contact-button-area{
-        transition: all 0.3s ease;
-        color: white;
-    }
-    .contact-button-area:hover{
-        color: #ff2424;
-    }
-/* MODAL CSS */
-.modal-title{
-    font-family: 'black ops one';
-    color: white !important;
+/* FOOTER */
+.footer {
+  border-top: white solid 3px;
+  background-color: black !important;
 }
-.modal-header span{
-    font-family: 'black ops one';
-    color: cyan;
-  }
+.logo-company {
+  padding: 1vh;
+}
+.social-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1vh;
+}
+.social-links h3 {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2vh;
+  padding-left: 1vh;
+  align-self: center;
+  color: white;
+}
+.social-links ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  align-self: center;
+}
+.social-links li {
+  padding-right: 2vh;
+}
+.social-links a {
+  color: cyan;
+  font-size: 3vh;
+  transition: all 0.8s ease;
+}
+.social-links a:hover {
+  color: #ff2424;
+}
+/* NEWSLETTER SUBSCRIPTION */
+.newsletter {
+  background: cyan !important;
+  border: black 1vh solid;
+  border-radius: 10px !important;
+
+  height: 80%;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter .content h2 {
+  color: black !important;
+  border: cyan 3px solid;
+  font-family: "black ops one";
+
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0.5vh;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #ff2424 !important;
+  color: #fff;
+  font-weight: 600;
+}
+/* USEFUL LINKS */
+.links {
+  padding: 1vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.links li {
+  color: white;
+  font-family: "bebas neue";
+  list-style: none;
+  border-bottom: black 2px solid;
+}
+.links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+
+  transition: all 0.3s ease;
+}
+.links li a:hover {
+  color: cyan;
+}
+.links h6 {
+  color: black !important;
+  font-family: "bebas neue";
+  background-color: white;
+  text-align: center !important;
+}
+.allrights {
+  background-color: black !important;
+}
+.allrights h6 {
+  font-family: "bebas neue";
+  letter-spacing: 0.5em;
+}
+.footer-contacts,
+.footer-links {
+  background-color: #ff2424;
+}
+/* END OF FOOTER CSS */
+
+/* ACCORDION CSS */
+.accordion {
+  border: black !important;
+}
+.accordion-button {
+  border: #243c4f 5px solid !important;
+  background-color: black !important;
+  color: white !important;
+  text-align: center;
+}
+/* END OF ACCORDION CSS */
+/* HELP CATEGORIES CSS */
+.help-button button {
+  width: 100% !important;
+  color: white !important;
+  border: cyan 2px solid;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  border-radius: 20px;
+  font-family: "bebas neue";
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+  font-size: 3vh;
+  align-items: center;
+  letter-spacing: 0.5vh;
+  transition: all 0.3s ease;
+}
+.help-button button:hover {
+  color: #ff2424 !important;
+  background-color: #243c4f;
+}
+.help-button a {
+  text-decoration: none;
+}
+/* CONTACT US BUTTON */
+.contact-wrapper {
+  border: 3px cyan solid;
+}
+.contact-wrapper .click-here {
+  font-size: 3vh;
+  width: 5vh;
+  height: 5vh;
+
+  border-radius: 100%;
+  display: inline-block;
+  border: cyan solid 3px;
+  background: transparent;
+  color: cyan;
+  transition: all 0.3s ease;
+}
+.contact-wrapper .click-here:hover {
+  color: #ff2424;
+  border-color: #ff2424;
+  background-color: white;
+}
+.contact-button-area label {
+  font-family: "bebas neue";
+  font-weight: 800;
+
+  font-size: 3vh;
+  text-shadow: 3px 0px 50px rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.5vh;
+}
+.contact-button-area {
+  transition: all 0.3s ease;
+  color: white;
+}
+.contact-button-area:hover {
+  color: #ff2424;
+}
+/* MODAL CSS */
+.modal-title {
+  font-family: "black ops one";
+  color: white !important;
+}
+.modal-header span {
+  font-family: "black ops one";
+  color: cyan;
+}

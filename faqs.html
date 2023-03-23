@@ -1,867 +1,1759 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>The Game Changer-FAQs</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="faqs.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="faqs.css" />
     <!-- Bootstrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-<body>  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="container-fluid">
-        <div class="row">
+      <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            
-            
-        <a class="navbar-brand mx-3 px-2" href="#"><img class="text-center" src="images/logo1.png" alt="" width="40" height="40"></a>
-          
-          
-            <button class="navbar-toggler bg-info mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand mx-3 px-2" href="#"
+            ><img
+              class="text-center"
+              src="images/logo1.png"
+              alt=""
+              width="40"
+              height="40"
+          /></a>
+          <button
+            class="navbar-toggler bg-info mx-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon bg-info"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">          
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="home nav-item nav-link text-center text-white mx-3 px-2 my-1" href="index.html">HOME</a>
-                <a class="gameshop nav-item nav-link text-white text-center mx-3 px-2 my-1" href="gameshop.html">GAME SHOP</a>
-                <a class="aboutus nav-item nav-link text-white text-center mx-3 px-2 my-1" href="aboutus.html">ABOUT US</a>
-                <a class="faqs nav-item nav-link text-white text-center mx-3 px-2 my-1 disabled" href="faqs.html">FAQs AND SUPPORT</a>
+              <a
+                class="home nav-item nav-link text-center text-white mx-3 px-2 my-1"
+                href="index.html"
+                >HOME</a
+              >
+              <a
+                class="gameshop nav-item nav-link text-white text-center mx-3 px-2 my-1"
+                href="gameshop.html"
+                >GAME SHOP</a
+              >
+              <a
+                class="aboutus nav-item nav-link text-white text-center mx-3 px-2 my-1"
+                href="aboutus.html"
+                >ABOUT US</a
+              >
+              <a
+                class="faqs nav-item nav-link text-white text-center mx-3 px-2 my-1 disabled"
+                href="faqs.html"
+                >FAQs AND SUPPORT</a
+              >
             </div>
-           
-        
-            
             <div class="d-flex">
               <div class="account dropdown show px-2">
-                  <a class="btn dropdown-toggle align-self-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                <a
+                  class="btn dropdown-toggle align-self-center"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                    />
                   </svg>
                   Account
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right float-end" aria-labelledby="dropdownMenuLink">
-                    <a style="cursor:pointer;" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
-                    <a style="cursor:pointer;" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#regModal">Register</a>
-                  </div>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right float-end"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <a
+                    style="cursor: pointer"
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    >Login</a
+                  >
+                  <a
+                    style="cursor: pointer"
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#regModal"
+                    >Register</a
+                  >
+                </div>
               </div>
-              <a href="#" class="cart-button btn rounded"><i class="fa-solid fa-cart-shopping"></i></a>
-              
-              </div>
-              </div>
-            
-        
+              <a href="#" class="cart-button btn rounded"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+          </div>
         </nav>
-    </div>
+      </div>
     </div>
     <div class="container-fluid">
-        <div class="row mt-3 mb-3">
-           
-            <div class="col-lg-6 mb-3">
-              <h2 class="text-center">FAQs</h2>
-              <div class="accordion" id="faqsAccordion">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq1">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                      Is this site legit?
-                    </button>
-                  </h2>
-                  <div id="collapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq1" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                    Yes. We are legitimate and has been up and running since 2023. We offer games at an affordable price via shipment as well as downloadable content.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                      When can I expect my order to be shipped?
-                    </button>
-                  </h2>
-                  <div id="collapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq2" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                      We offer same-day delivery forever so you can expect your package to be delivered the same day as you order. Delays can happen though so, some orders may be delivered the next day.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                      Do I need to make an account to buy games from you?
-                    </button>
-                  </h2>
-                  <div id="collapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq3" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                      Yes you have to make an account as we keep track of records to avoid errors.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                      Can I pre-order and how? Also how will I know if it is here already?
-                    </button>
-                  </h2>
-                  <div id="collapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq4" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                      Yes you can! All you have to do is the order on the website. You can even pay for the item once it arrives (only for bank deposit and/or cash on pick-up. Credit cards and Paypal are automatically charged)
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq5">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                      What are your available Payment Options?
-                    </button>
-                  </h2>
-                  <div id="collapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq5" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                      We accept credit, debit, cash-on-delivery, as well as gift-cards.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faq6">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                      Can I get a refund?
-                    </button>
-                  </h2>
-                  <div id="collapse6" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="faq6" data-bs-parent="#faqsAccordion">
-                    <div class="accordion-body">
-                      Of course! We value our products with utmost quality. Therefore, if you aren't satisfied with your item, you can request a refund.
-                    </div>
-                  </div>
+      <div class="row mt-3 mb-3">
+        <div class="col-lg-6 mb-3">
+          <h2 class="text-center">FAQs</h2>
+          <div class="accordion" id="faqsAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse1"
+                  aria-expanded="false"
+                  aria-controls="collapse1"
+                >
+                  Is this site legit?
+                </button>
+              </h2>
+              <div
+                id="collapse1"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq1"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  Yes. We are legitimate and has been up and running since 2023.
+                  We offer games at an affordable price via shipment as well as
+                  downloadable content.
                 </div>
               </div>
-                
             </div>
-            <div class="col-lg-6">
-              <div class="row">
-              <h2 class="text-center">Help Categories</h2>
-              <div class="help-button col-lg-6 text-center">
-                  <button data-bs-toggle="modal" data-bs-target="#gameRModal"><i class="fa-solid fa-gamepad"></i>Game Related</button>
-                  <button data-bs-toggle="modal" data-bs-target="#shopRModal"><i class="fa-solid fa-shop"></i>Shop Related</button>
-                  <button data-bs-toggle="modal" data-bs-target="#webRModal"><i class="fa-solid fa-globe"></i>Website Related</button>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse2"
+                  aria-expanded="false"
+                  aria-controls="collapse2"
+                >
+                  When can I expect my order to be shipped?
+                </button>
+              </h2>
+              <div
+                id="collapse2"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq2"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  We offer same-day delivery forever so you can expect your
+                  package to be delivered the same day as you order. Delays can
+                  happen though so, some orders may be delivered the next day.
+                </div>
               </div>
-              <div class="help-button col-lg-6 text-center">
-                  <button data-bs-toggle="modal" data-bs-target="#orderRModal"><i class="fa-solid fa-cart-shopping"></i>Order Related</button>
-                  <button data-bs-toggle="modal" data-bs-target="#customerRModal"><i class="fa-solid fa-phone"></i>Customer Related</button>
-                  <button data-bs-toggle="modal" data-bs-target="#companyRModal"><i class="fa-solid fa-building"></i>Company Related</button>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse3"
+                  aria-expanded="false"
+                  aria-controls="collapse3"
+                >
+                  Do I need to make an account to buy games from you?
+                </button>
+              </h2>
+              <div
+                id="collapse3"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq3"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  Yes you have to make an account as we keep track of records to
+                  avoid errors.
+                </div>
               </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapse4"
+                >
+                  Can I pre-order and how? Also how will I know if it is here
+                  already?
+                </button>
+              </h2>
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq4"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  Yes you can! All you have to do is the order on the website.
+                  You can even pay for the item once it arrives (only for bank
+                  deposit and/or cash on pick-up. Credit cards and Paypal are
+                  automatically charged)
+                </div>
               </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq5">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapse5"
+                >
+                  What are your available Payment Options?
+                </button>
+              </h2>
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq5"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  We accept credit, debit, cash-on-delivery, as well as
+                  gift-cards.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq6">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                  aria-expanded="false"
+                  aria-controls="collapse6"
+                >
+                  Can I get a refund?
+                </button>
+              </h2>
+              <div
+                id="collapse6"
+                class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="faq6"
+                data-bs-parent="#faqsAccordion"
+              >
+                <div class="accordion-body">
+                  Of course! We value our products with utmost quality.
+                  Therefore, if you aren't satisfied with your item, you can
+                  request a refund.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6">
-          <div class="contact-wrapper text-center text-white py-3 mx-auto bg-dark rounded mb-3">
+        <div class="col-lg-6">
+          <div class="row">
+            <h2 class="text-center">Help Categories</h2>
+            <div class="help-button col-lg-6 text-center">
+              <button data-bs-toggle="modal" data-bs-target="#gameRModal">
+                <i class="fa-solid fa-gamepad"></i>Game Related
+              </button>
+              <button data-bs-toggle="modal" data-bs-target="#shopRModal">
+                <i class="fa-solid fa-shop"></i>Shop Related
+              </button>
+              <button data-bs-toggle="modal" data-bs-target="#webRModal">
+                <i class="fa-solid fa-globe"></i>Website Related
+              </button>
+            </div>
+            <div class="help-button col-lg-6 text-center">
+              <button data-bs-toggle="modal" data-bs-target="#orderRModal">
+                <i class="fa-solid fa-cart-shopping"></i>Order Related
+              </button>
+              <button data-bs-toggle="modal" data-bs-target="#customerRModal">
+                <i class="fa-solid fa-phone"></i>Customer Related
+              </button>
+              <button data-bs-toggle="modal" data-bs-target="#companyRModal">
+                <i class="fa-solid fa-building"></i>Company Related
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div
+            class="contact-wrapper text-center text-white py-3 mx-auto bg-dark rounded mb-3"
+          >
             <h2>Can't find what you need?</h2>
             <form class="d-flex my-2 mx-auto w-75">
-              <input class="form-control mr-sm-2 text-center" type="search" placeholder="Search here..." aria-label="Search">
-              <button class="btn ms-1 btn-outline-info my-2 my-sm-0"><i class="fa-solid fa-magnifying-glass"></i></button>  
+              <input
+                class="form-control mr-sm-2 text-center"
+                type="search"
+                placeholder="Search here..."
+                aria-label="Search"
+              />
+              <button class="btn ms-1 btn-outline-info my-2 my-sm-0">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </form>
             <p>OR</p>
             <p>Be in touch with our live gaming specialists!</p>
             <p>Available 24/7</p>
-          <div class="contact-button-area">
-            <label for="click-here">CLICK HERE <i class="fa-solid fa-arrow-right"></i></label>
-            <button class="click-here" name="click-here" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-headset"></i></button>
+            <div class="contact-button-area">
+              <label for="click-here"
+                >CLICK HERE <i class="fa-solid fa-arrow-right"></i
+              ></label>
+              <button
+                class="click-here"
+                name="click-here"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="fa-solid fa-headset"></i>
+              </button>
+            </div>
+            <div class="col-lg-3"></div>
           </div>
-          <div class="col-lg-3"></div>
-          </div>
-          </div>
-        </div>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="exampleModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">How can we help?</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="col-form-label">Name:</label>
-              <input type="text" class="form-control" id="name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="col-form-label">Email Address:</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="mb-3">
-              <label for="contact-number" class="col-form-label">Contact Number:</label>
-              <input type="number" class="form-control" id="contact-number">
-            </div>
-            <div class="mb-3">
-              <label for="concern-select" class="col-form-label">Type of Concern:</label>
-              <select class="ms-5" name="concern-select" id="concern-select">
-                <option value="game">Game Related</option>
-                <option value="shop">Shop Related</option>
-                <option value="website">Website Related</option>
-                <option value="order">Order Related</option>
-                <option value="customer">Customer Related</option>
-                <option value="company">Company Related</option>
-                <option value="others">Others</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="message-text" class="col-form-label">Details of your concern:</label>
-              <textarea class="form-control" id="message-text"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary"><i class="fa-solid fa-phone"></i></button>
         </div>
       </div>
     </div>
-  </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="exampleModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              How can we help?
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email Address:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="contact-number" class="col-form-label"
+                  >Contact Number:</label
+                >
+                <input type="number" class="form-control" id="contact-number" />
+              </div>
+              <div class="mb-3">
+                <label for="concern-select" class="col-form-label"
+                  >Type of Concern:</label
+                >
+                <select class="ms-5" name="concern-select" id="concern-select">
+                  <option value="game">Game Related</option>
+                  <option value="shop">Shop Related</option>
+                  <option value="website">Website Related</option>
+                  <option value="order">Order Related</option>
+                  <option value="customer">Customer Related</option>
+                  <option value="company">Company Related</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label"
+                  >Details of your concern:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- GAME RELATED MODAL -->
-  <div class="modal fade" id="gameRModal" tabindex="-1" aria-labelledby="gameRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="gameRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="GameRModalLabel">Game Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="gameRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="game1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gamecollapse1" aria-expanded="false" aria-controls="game1">
-                  What is the difference between single player and multiplayer games?
-                </button>
-              </h2>
-              <div id="gamecollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="game1" data-bs-parent="#gameRAccordion">
-                <div class="accordion-body">
-                  Single player games are designed to be played alone, while multiplayer games allow you to play with others either locally or online.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="game2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gamecollapse2" aria-expanded="false" aria-controls="game2">
-                  What is the ESRB rating system and why is it important?
-                </button>
-              </h2>
-              <div id="gamecollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="game2" data-bs-parent="#gameRAccordion">
-                <div class="accordion-body">
-                  The ESRB (Entertainment Software Rating Board) is a rating system that provides information about the content in video games. It's important because it helps consumers make informed decisions about the games they play, especially when it comes to children.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="game3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gamecollapse3" aria-expanded="false" aria-controls="collapse3">
-                  What are some popular game genres?
-                </button>
-              </h2>
-              <div id="gamecollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="game3" data-bs-parent="#gameRAccordion">
-                <div class="accordion-body">
-                  Some popular game genres include action, adventure, RPG (role-playing game), FPS (first-person shooter), sports, racing, puzzle, and simulation.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="game4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gamecollapse4" aria-expanded="false" aria-controls="game4">
-                  How do I improve my gaming skills?
-                </button>
-              </h2>
-              <div id="gamecollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="game4" data-bs-parent="#gameRAccordion">
-                <div class="accordion-body">
-                  You can improve your gaming skills by practicing regularly, studying game mechanics and strategies, watching tutorials and gameplay videos, and seeking feedback from other players.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="game5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gamecollapse5" aria-expanded="false" aria-controls="game5">
-                  What are some common gaming terms and abbreviations?
-                </button>
-              </h2>
-              <div id="gamecollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="game5" data-bs-parent="#gameRAccordion">
-                <div class="accordion-body">
-                  Some common gaming terms and abbreviations include FPS (frames per second), MMO (massively multiplayer online), DLC (downloadable content), RNG (random number generator), and FPS (first-person shooter).
-                </div>
-              </div>
-            </div>
+    <!-- GAME RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="gameRModal"
+      tabindex="-1"
+      aria-labelledby="gameRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="gameRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="help-modal-title modal-title fs-5" id="GameRModalLabel">
+              Game Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-   <!-- SHOP RELATED MODAL -->
-  <div class="modal fade" id="shopRModal" tabindex="-1" aria-labelledby="shopRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="shopRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="shopRModalLabel">Shop Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="shopRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="shop1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shopcollapse1" aria-expanded="false" aria-controls="shop1">
-                  What is The Game Changer?
-                </button>
-              </h2>
-              <div id="shopcollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="shop1" data-bs-parent="#shopRAccordion">
-                <div class="accordion-body">
-                  The Game Changer is a retail store that specializes in selling video games and related merchandise, such as consoles, accessories, and collectibles.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="shop2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shopcollapse2" aria-expanded="false" aria-controls="shop2">
-                  What types of games can I find in your store?
-                </button>
-              </h2>
-              <div id="shopcollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="shop2" data-bs-parent="#shopRAccordion">
-                <div class="accordion-body">
-                  We offer carry a variety of games for different platforms, including PC, console, and mobile games.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="shop3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shopcollapse3" aria-expanded="false" aria-controls="shop3">
-                  What other products can I find in your store?
-                </button>
-              </h2>
-              <div id="shopcollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="shop3" data-bs-parent="#shopRAccordion">
-                <div class="accordion-body">
-                  In addition to games, we also offer consoles, gaming accessories, gaming-themed clothing and merchandise, and collectibles.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="shop4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shopcollapse4" aria-expanded="false" aria-controls="shop4">
-                  Can I pre-order games?
-                </button>
-              </h2>
-              <div id="shopcollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="shop4" data-bs-parent="#shopRAccordion">
-                <div class="accordion-body">
-                  Yes, we offer pre-ordering for upcoming games. This allows you to reserve a copy of the game and often comes with bonuses such as exclusive in-game content.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="shop5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shopcollapse5" aria-expanded="false" aria-controls="shop5">
-                  Can I trade in my old games in your store?
-                </button>
-              </h2>
-              <div id="shopcollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="shop5" data-bs-parent="#shopRAccordion">
-                <div class="accordion-body">
-                  Yes, we also offer trade-in programs where you can exchange your old games for store credit or cash.
-                </div>
-              </div>
-            </div>       
-          </div>  
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- WEBSITE RELATED MODAL -->
-  <div class="modal fade" id="webRModal" tabindex="-1" aria-labelledby="webRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="webRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="webRModalLabel">Website Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="webRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="web1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webcollapse1" aria-expanded="false" aria-controls="web1">
-                  What types of content can I find on your website?
-                </button>
-              </h2>
-              <div id="webcollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web1" data-bs-parent="#webRAccordion">
-                <div class="accordion-body">
-                  Our website offers a shop, news, reviews, previews, feature articles, and videos related to video games and the gaming industry.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="web2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webcollapse2" aria-expanded="false" aria-controls="web2">
-                  Is your website free to use?
-                </button>
-              </h2>
-              <div id="webcollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web2" data-bs-parent="#webRAccordion">
-                <div class="accordion-body">
-                  Yes, our website is free to use. We also offer premium content or subscription services for an additional fee.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="web3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webcollapse3" aria-expanded="false" aria-controls="web3">
-                  Can I leave comments or engage with other users on your website?
-                </button>
-              </h2>
-              <div id="webcollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web3" data-bs-parent="#webRAccordion">
-                <div class="accordion-body">
-                  Yes, our website allow users to leave comments and engage with other users through our forums or comment sections.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="web4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webcollapse4" aria-expanded="false" aria-controls="web4">
-                  Does your website offer guides or walkthroughs for games?
-                </button>
-              </h2>
-              <div id="webcollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web4" data-bs-parent="#webRAccordion">
-                <div class="accordion-body">
-                  Yes, our website offers guides or walkthroughs for games, often written by experienced gamers or professional writers.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="web5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webcollapse5" aria-expanded="false" aria-controls="web5">
-                  Can I purchase games directly from your website?
-                </button>
-              </h2>
-              <div id="webcollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web5" data-bs-parent="#webRAccordion">
-                <div class="accordion-body">
-                  Our website is a game store. Therefore, we offer the ability to purchase games directly from our site.
-                </div>
-              </div>
-            </div>       
-          </div>  
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ORDER RELATED MODAL -->
-  <div class="modal fade" id="orderRModal" tabindex="-1" aria-labelledby="orderRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="orderRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="orderRModalLabel">Order Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="orderRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="order1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ordercollapse1" aria-expanded="false" aria-controls="order1">
-                  How do I place an order?
-                </button>
-              </h2>
-              <div id="ordercollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="order1" data-bs-parent="#orderRAccordion">
-                <div class="accordion-body">
-                  To place an order, you need to create an account, browse the store's selection of games, add the games you want to your cart, and complete the checkout process by providing payment and shipping information.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="order2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ordercollapse2" aria-expanded="false" aria-controls="order2">
-                  What payment methods are accepted?
-                </button>
-              </h2>
-              <div id="ordercollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="order2" data-bs-parent="#orderRAccordion">
-                <div class="accordion-body">
-                  Payment methods accepted are credit or debit cards, PayPal, and gift cards.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="order3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ordercollapse3" aria-expanded="false" aria-controls="order3">
-                  How long does it take for my order to be processed and shipped?
-                </button>
-              </h2>
-              <div id="ordercollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="web3" data-bs-parent="#orderRAccordion">
-                <div class="accordion-body">
-                  Processing and shipping times can vary depending on the shipping method chosen. Our store provides estimated shipping times at checkout.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="order4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ordercollapse4" aria-expanded="false" aria-controls="order4">
-                  Can I track the status of my order?
-                </button>
-              </h2>
-              <div id="ordercollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="order4" data-bs-parent="#orderRAccordion">
-                <div class="accordion-body">
-                  Yes, our store provides order tracking information once your order has shipped. This allows you to monitor the progress of your delivery.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="order5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ordercollapse5" aria-expanded="false" aria-controls="order5">
-                  What if I need to cancel or modify my order after it has been placed?
-                </button>
-              </h2>
-              <div id="ordercollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="order5" data-bs-parent="#orderRAccordion">
-                <div class="accordion-body">
-                  Yes, we allow order cancellations or modifications before the order has shipped.
-                </div>
-              </div>
-            </div>       
-          </div>  
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- CUSTOMER RELATED MODAL -->
-  <div class="modal fade" id="customerRModal" tabindex="-1" aria-labelledby="customerRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="customerRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="customerRModalLabel">Order Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="customerRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="customer1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customercollapse1" aria-expanded="false" aria-controls="customer1">
-                  Can I return a game if I don't like it?
-                </button>
-              </h2>
-              <div id="customercollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="customer1" data-bs-parent="#customerRAccordion">
-                <div class="accordion-body">
-                  We allow returns for a refund or exchange within 7 days from purchase.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="customer2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customercollapse2" aria-expanded="false" aria-controls="customer2">
-                  Can I trade in old games for store credit?
-                </button>
-              </h2>
-              <div id="customercollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="customer2" data-bs-parent="#customerRAccordion">
-                <div class="accordion-body">
-                  Yes, we offer trade-in programs where customers can trade in their old games for store credit, which can be used towards new purchases.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="customer3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customercollapse3" aria-expanded="false" aria-controls="customer3">
-                  Are there any age restrictions for buying games?
-                </button>
-              </h2>
-              <div id="customercollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="customer3" data-bs-parent="#customerRAccordion">
-                <div class="accordion-body">
-                  Yes, some games may have age restrictions based on their content. Ratings boards, such as the ESRB in North America and PEGI in Europe, provide age recommendations for games based on their content.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="customer4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customercollapse4" aria-expanded="false" aria-controls="customer4">
-                  Can I get help with technical issues or troubleshooting for games?
-                </button>
-              </h2>
-              <div id="customercollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="customer4" data-bs-parent="#customerRAccordion">
-                <div class="accordion-body">
-                  Yes, we offer customer support for technical issues or troubleshooting with games.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="customer5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customercollapse5" aria-expanded="false" aria-controls="customer5">
-                  Can I track my orders or check the status of a game purchase?
-                </button>
-              </h2>
-              <div id="customercollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="customer5" data-bs-parent="#customerRAccordion">
-                <div class="accordion-body">
-                  Yes, our store allow customers to track their orders or check the status of a game purchase through their website or customer support.
-                </div>
-              </div>
-            </div>      
-          </div>  
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- COMPANY RELATED MODAL -->
-  <div class="modal fade" id="companyRModal" tabindex="-1" aria-labelledby="companyRModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" id="companyRModal">
-      <div class="modal-content">
-        <div class="modal-header bg-info">
-          <h1 class="help-modal-title modal-title fs-5" id="companyRModalLabel">Order Related</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body bg-dark text-white text-center">
-          <img class="img-fluid mb-3" src="images/textlogo.png" width="200" alt="">
-          <div class="accordion" id="companyRAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="company1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companycollapse1" aria-expanded="false" aria-controls="company1">
-                  How long has your company been around?
-                </button>
-              </h2>
-              <div id="companycollapse1" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="company1" data-bs-parent="#companyRAccordion">
-                <div class="accordion-body">
-                  Our company has been around since the March 2023.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="company2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companycollapse2" aria-expanded="false" aria-controls="company2">
-                  How does your company determine which games to sell?
-                </button>
-              </h2>
-              <div id="companycollapse2" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="company2" data-bs-parent="#companyRAccordion">
-                <div class="accordion-body">
-                  We typically work with game publishers and distributors to determine which games to sell. We may also consider factors such as popularity and customer demand.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="company3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companycollapse3" aria-expanded="false" aria-controls="company3">
-                  Can I apply for a job at your company?
-                </button>
-              </h2>
-              <div id="companycollapse3" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="company3" data-bs-parent="#companyRAccordion">
-                <div class="accordion-body">
-                  Yes, we offer job opportunities in our physical and online stores. You can typically find job postings via our company's website or by visiting our physical store.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="company4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companycollapse4" aria-expanded="false" aria-controls="company4">
-                  Are there any major differences between game store companies in terms of prices, selection, or other factors?
-                </button>
-              </h2>
-              <div id="companycollapse4" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="company4" data-bs-parent="#companyRAccordion">
-                <div class="accordion-body">
-                  Yes, different game store companies may have different prices, selection, and other factors that set them apart from one another. It's always a good idea to compare prices and selection before making a purchase.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="company5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companycollapse5" aria-expanded="false" aria-controls="company5">
-                  Does your company have customer loyalty programs?
-                </button>
-              </h2>
-              <div id="companycollapse5" class="accordion-collapse collapse bg-dark text-white" aria-labelledby="company5" data-bs-parent="#companyRAccordion">
-                <div class="accordion-body">
-                  Yes, our company has customer loyalty programs that offer rewards for making purchases and other activities, such as trade-ins or pre-orders.
-                </div>
-              </div>
-            </div>
-
-          </div>  
-        </div>
-        <div class="modal-footer bg-info">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
-    
-   <!-- FOOTER CONTAINER -->
-   <div class="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="useful-links pt-1 col-lg-4 text-center align-self-center">
-          
-          <div class="links row">
-            <div class="col-md-6 pb-3">
-              <h6 class="text-start">Links</h6>
-             <div class="footer-links">
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="gameshop.html">Store</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="faqs.html">FAQs and Support</a></li>
-                <li><a href="#">Login and Register</a></li>
-              </div>
-              
-            </div>
-            <div class="col-md-6 pb-3">
-              <h6 class="text-start">Contact</h6>
-              <div class="footer-contacts">
-                <li><a href=""><i class="fa-brands fa-discord"></i>Discord</a></li>
-                <li><a href=""><i class="fa-brands fa-telegram"></i>Telegram</a></li>
-                <li><a href=""><i class="fa-brands fa-whatsapp"></i></i>Whatsapp</a></li>
-                <li><i class="fa-solid fa-phone"></i>: +20292828</li>
-                <li><i class="fa-regular fa-envelope"></i>: tgc_company@gmail.com</li>
-              </div>
-            </div>            
-          </div>            
-      </div>
-      
-      <div class="newsletter col-lg-4 pb-1 align-self-center text-center">
-          <div class="content">
-            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-          <div class="input-group">
-                 <input type="email" class="form-control" placeholder="Enter your email">
-                 <span class="input-group-btn">
-                 <button class="btn" type="submit">Subscribe Now</button>
-                 </span>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="gameRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="game1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gamecollapse1"
+                    aria-expanded="false"
+                    aria-controls="game1"
+                  >
+                    What is the difference between single player and multiplayer
+                    games?
+                  </button>
+                </h2>
+                <div
+                  id="gamecollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="game1"
+                  data-bs-parent="#gameRAccordion"
+                >
+                  <div class="accordion-body">
+                    Single player games are designed to be played alone, while
+                    multiplayer games allow you to play with others either
+                    locally or online.
                   </div>
-          </div>
-        </div>
-        <div class="col-lg-4 pt-4 text-center">
-          <div class="logo-company">
-          <img src="images/logo1.png" alt="" width="40" height="40">
-          <img src="images/textlogo.png" alt="" width="150">
-        </div>
-          <div class="row">
-            <div class="social-links ">
-              <h3>Social Links:</h3>
-              <ul>
-                <li><a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#" title="Linked-in"><i class="fa-brands fa-linkedin"></i></a></li>
-              </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="game2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gamecollapse2"
+                    aria-expanded="false"
+                    aria-controls="game2"
+                  >
+                    What is the ESRB rating system and why is it important?
+                  </button>
+                </h2>
+                <div
+                  id="gamecollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="game2"
+                  data-bs-parent="#gameRAccordion"
+                >
+                  <div class="accordion-body">
+                    The ESRB (Entertainment Software Rating Board) is a rating
+                    system that provides information about the content in video
+                    games. It's important because it helps consumers make
+                    informed decisions about the games they play, especially
+                    when it comes to children.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="game3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gamecollapse3"
+                    aria-expanded="false"
+                    aria-controls="collapse3"
+                  >
+                    What are some popular game genres?
+                  </button>
+                </h2>
+                <div
+                  id="gamecollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="game3"
+                  data-bs-parent="#gameRAccordion"
+                >
+                  <div class="accordion-body">
+                    Some popular game genres include action, adventure, RPG
+                    (role-playing game), FPS (first-person shooter), sports,
+                    racing, puzzle, and simulation.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="game4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gamecollapse4"
+                    aria-expanded="false"
+                    aria-controls="game4"
+                  >
+                    How do I improve my gaming skills?
+                  </button>
+                </h2>
+                <div
+                  id="gamecollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="game4"
+                  data-bs-parent="#gameRAccordion"
+                >
+                  <div class="accordion-body">
+                    You can improve your gaming skills by practicing regularly,
+                    studying game mechanics and strategies, watching tutorials
+                    and gameplay videos, and seeking feedback from other
+                    players.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="game5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gamecollapse5"
+                    aria-expanded="false"
+                    aria-controls="game5"
+                  >
+                    What are some common gaming terms and abbreviations?
+                  </button>
+                </h2>
+                <div
+                  id="gamecollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="game5"
+                  data-bs-parent="#gameRAccordion"
+                >
+                  <div class="accordion-body">
+                    Some common gaming terms and abbreviations include FPS
+                    (frames per second), MMO (massively multiplayer online), DLC
+                    (downloadable content), RNG (random number generator), and
+                    FPS (first-person shooter).
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
-        
-      <div class="allrights row text-white">
-        <h6 class="text-center align-self-bottom">All rights reserved 2023.</h6>
-
-        </div>
     </div>
-  </div>
-       <!-- LOGIN MODAL -->
-       <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" id="loginModal">
-          <div class="modal-content">
-            <div class="modal-header bg-black">
-              <img src="images/logo1.png" width="50" alt=""><span class="mx-3"><h3>LOGIN</h3></span>
-              <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- SHOP RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="shopRModal"
+      tabindex="-1"
+      aria-labelledby="shopRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="shopRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="help-modal-title modal-title fs-5" id="shopRModalLabel">
+              Shop Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="shopRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="shop1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shopcollapse1"
+                    aria-expanded="false"
+                    aria-controls="shop1"
+                  >
+                    What is The Game Changer?
+                  </button>
+                </h2>
+                <div
+                  id="shopcollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="shop1"
+                  data-bs-parent="#shopRAccordion"
+                >
+                  <div class="accordion-body">
+                    The Game Changer is a retail store that specializes in
+                    selling video games and related merchandise, such as
+                    consoles, accessories, and collectibles.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="shop2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shopcollapse2"
+                    aria-expanded="false"
+                    aria-controls="shop2"
+                  >
+                    What types of games can I find in your store?
+                  </button>
+                </h2>
+                <div
+                  id="shopcollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="shop2"
+                  data-bs-parent="#shopRAccordion"
+                >
+                  <div class="accordion-body">
+                    We offer carry a variety of games for different platforms,
+                    including PC, console, and mobile games.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="shop3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shopcollapse3"
+                    aria-expanded="false"
+                    aria-controls="shop3"
+                  >
+                    What other products can I find in your store?
+                  </button>
+                </h2>
+                <div
+                  id="shopcollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="shop3"
+                  data-bs-parent="#shopRAccordion"
+                >
+                  <div class="accordion-body">
+                    In addition to games, we also offer consoles, gaming
+                    accessories, gaming-themed clothing and merchandise, and
+                    collectibles.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="shop4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shopcollapse4"
+                    aria-expanded="false"
+                    aria-controls="shop4"
+                  >
+                    Can I pre-order games?
+                  </button>
+                </h2>
+                <div
+                  id="shopcollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="shop4"
+                  data-bs-parent="#shopRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer pre-ordering for upcoming games. This allows
+                    you to reserve a copy of the game and often comes with
+                    bonuses such as exclusive in-game content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="shop5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#shopcollapse5"
+                    aria-expanded="false"
+                    aria-controls="shop5"
+                  >
+                    Can I trade in my old games in your store?
+                  </button>
+                </h2>
+                <div
+                  id="shopcollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="shop5"
+                  data-bs-parent="#shopRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we also offer trade-in programs where you can exchange
+                    your old games for store credit or cash.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="modal-body bg-dark  text-white">
-              <form class="py-3">
-               
-                <div class="form-group mb-3">
-                  <label for="email">Email Address:</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WEBSITE RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="webRModal"
+      tabindex="-1"
+      aria-labelledby="webRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="webRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="help-modal-title modal-title fs-5" id="webRModalLabel">
+              Website Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="webRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="web1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#webcollapse1"
+                    aria-expanded="false"
+                    aria-controls="web1"
+                  >
+                    What types of content can I find on your website?
+                  </button>
+                </h2>
+                <div
+                  id="webcollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web1"
+                  data-bs-parent="#webRAccordion"
+                >
+                  <div class="accordion-body">
+                    Our website offers a shop, news, reviews, previews, feature
+                    articles, and videos related to video games and the gaming
+                    industry.
+                  </div>
                 </div>
-                <div class="form-group mb-3">
-                  <label for="password">Password:</label>
-                  <input type="password" class="form-control" id="password" name="password" required>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="web2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#webcollapse2"
+                    aria-expanded="false"
+                    aria-controls="web2"
+                  >
+                    Is your website free to use?
+                  </button>
+                </h2>
+                <div
+                  id="webcollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web2"
+                  data-bs-parent="#webRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our website is free to use. We also offer premium
+                    content or subscription services for an additional fee.
+                  </div>
                 </div>
-                <div class="form-group mb-3 d-flex justify-content-between">
-                  <div>
-                <input type="checkbox" class="form-check-input" id="check-terms" name="check-terms" required>
-                <label for="check-terms">Remember me</label>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="web3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#webcollapse3"
+                    aria-expanded="false"
+                    aria-controls="web3"
+                  >
+                    Can I leave comments or engage with other users on your
+                    website?
+                  </button>
+                </h2>
+                <div
+                  id="webcollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web3"
+                  data-bs-parent="#webRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our website allow users to leave comments and engage
+                    with other users through our forums or comment sections.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="web4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#webcollapse4"
+                    aria-expanded="false"
+                    aria-controls="web4"
+                  >
+                    Does your website offer guides or walkthroughs for games?
+                  </button>
+                </h2>
+                <div
+                  id="webcollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web4"
+                  data-bs-parent="#webRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our website offers guides or walkthroughs for games,
+                    often written by experienced gamers or professional writers.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="web5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#webcollapse5"
+                    aria-expanded="false"
+                    aria-controls="web5"
+                  >
+                    Can I purchase games directly from your website?
+                  </button>
+                </h2>
+                <div
+                  id="webcollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web5"
+                  data-bs-parent="#webRAccordion"
+                >
+                  <div class="accordion-body">
+                    Our website is a game store. Therefore, we offer the ability
+                    to purchase games directly from our site.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ORDER RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="orderRModal"
+      tabindex="-1"
+      aria-labelledby="orderRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="orderRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="help-modal-title modal-title fs-5" id="orderRModalLabel">
+              Order Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="orderRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="order1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ordercollapse1"
+                    aria-expanded="false"
+                    aria-controls="order1"
+                  >
+                    How do I place an order?
+                  </button>
+                </h2>
+                <div
+                  id="ordercollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="order1"
+                  data-bs-parent="#orderRAccordion"
+                >
+                  <div class="accordion-body">
+                    To place an order, you need to create an account, browse the
+                    store's selection of games, add the games you want to your
+                    cart, and complete the checkout process by providing payment
+                    and shipping information.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="order2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ordercollapse2"
+                    aria-expanded="false"
+                    aria-controls="order2"
+                  >
+                    What payment methods are accepted?
+                  </button>
+                </h2>
+                <div
+                  id="ordercollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="order2"
+                  data-bs-parent="#orderRAccordion"
+                >
+                  <div class="accordion-body">
+                    Payment methods accepted are credit or debit cards, PayPal,
+                    and gift cards.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="order3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ordercollapse3"
+                    aria-expanded="false"
+                    aria-controls="order3"
+                  >
+                    How long does it take for my order to be processed and
+                    shipped?
+                  </button>
+                </h2>
+                <div
+                  id="ordercollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="web3"
+                  data-bs-parent="#orderRAccordion"
+                >
+                  <div class="accordion-body">
+                    Processing and shipping times can vary depending on the
+                    shipping method chosen. Our store provides estimated
+                    shipping times at checkout.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="order4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ordercollapse4"
+                    aria-expanded="false"
+                    aria-controls="order4"
+                  >
+                    Can I track the status of my order?
+                  </button>
+                </h2>
+                <div
+                  id="ordercollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="order4"
+                  data-bs-parent="#orderRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our store provides order tracking information once your
+                    order has shipped. This allows you to monitor the progress
+                    of your delivery.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="order5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ordercollapse5"
+                    aria-expanded="false"
+                    aria-controls="order5"
+                  >
+                    What if I need to cancel or modify my order after it has
+                    been placed?
+                  </button>
+                </h2>
+                <div
+                  id="ordercollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="order5"
+                  data-bs-parent="#orderRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we allow order cancellations or modifications before
+                    the order has shipped.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CUSTOMER RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="customerRModal"
+      tabindex="-1"
+      aria-labelledby="customerRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="customerRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1
+              class="help-modal-title modal-title fs-5"
+              id="customerRModalLabel"
+            >
+              Order Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="customerRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="customer1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#customercollapse1"
+                    aria-expanded="false"
+                    aria-controls="customer1"
+                  >
+                    Can I return a game if I don't like it?
+                  </button>
+                </h2>
+                <div
+                  id="customercollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="customer1"
+                  data-bs-parent="#customerRAccordion"
+                >
+                  <div class="accordion-body">
+                    We allow returns for a refund or exchange within 7 days from
+                    purchase.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="customer2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#customercollapse2"
+                    aria-expanded="false"
+                    aria-controls="customer2"
+                  >
+                    Can I trade in old games for store credit?
+                  </button>
+                </h2>
+                <div
+                  id="customercollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="customer2"
+                  data-bs-parent="#customerRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer trade-in programs where customers can trade in
+                    their old games for store credit, which can be used towards
+                    new purchases.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="customer3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#customercollapse3"
+                    aria-expanded="false"
+                    aria-controls="customer3"
+                  >
+                    Are there any age restrictions for buying games?
+                  </button>
+                </h2>
+                <div
+                  id="customercollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="customer3"
+                  data-bs-parent="#customerRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, some games may have age restrictions based on their
+                    content. Ratings boards, such as the ESRB in North America
+                    and PEGI in Europe, provide age recommendations for games
+                    based on their content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="customer4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#customercollapse4"
+                    aria-expanded="false"
+                    aria-controls="customer4"
+                  >
+                    Can I get help with technical issues or troubleshooting for
+                    games?
+                  </button>
+                </h2>
+                <div
+                  id="customercollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="customer4"
+                  data-bs-parent="#customerRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer customer support for technical issues or
+                    troubleshooting with games.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="customer5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#customercollapse5"
+                    aria-expanded="false"
+                    aria-controls="customer5"
+                  >
+                    Can I track my orders or check the status of a game
+                    purchase?
+                  </button>
+                </h2>
+                <div
+                  id="customercollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="customer5"
+                  data-bs-parent="#customerRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our store allow customers to track their orders or
+                    check the status of a game purchase through their website or
+                    customer support.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- COMPANY RELATED MODAL -->
+    <div
+      class="modal fade"
+      id="companyRModal"
+      tabindex="-1"
+      aria-labelledby="companyRModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="companyRModal">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1
+              class="help-modal-title modal-title fs-5"
+              id="companyRModalLabel"
+            >
+              Order Related
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white text-center">
+            <img
+              class="img-fluid mb-3"
+              src="images/textlogo.png"
+              width="200"
+              alt=""
+            />
+            <div class="accordion" id="companyRAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="company1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#companycollapse1"
+                    aria-expanded="false"
+                    aria-controls="company1"
+                  >
+                    How long has your company been around?
+                  </button>
+                </h2>
+                <div
+                  id="companycollapse1"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="company1"
+                  data-bs-parent="#companyRAccordion"
+                >
+                  <div class="accordion-body">
+                    Our company has been around since the March 2023.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="company2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#companycollapse2"
+                    aria-expanded="false"
+                    aria-controls="company2"
+                  >
+                    How does your company determine which games to sell?
+                  </button>
+                </h2>
+                <div
+                  id="companycollapse2"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="company2"
+                  data-bs-parent="#companyRAccordion"
+                >
+                  <div class="accordion-body">
+                    We typically work with game publishers and distributors to
+                    determine which games to sell. We may also consider factors
+                    such as popularity and customer demand.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="company3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#companycollapse3"
+                    aria-expanded="false"
+                    aria-controls="company3"
+                  >
+                    Can I apply for a job at your company?
+                  </button>
+                </h2>
+                <div
+                  id="companycollapse3"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="company3"
+                  data-bs-parent="#companyRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer job opportunities in our physical and online
+                    stores. You can typically find job postings via our
+                    company's website or by visiting our physical store.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="company4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#companycollapse4"
+                    aria-expanded="false"
+                    aria-controls="company4"
+                  >
+                    Are there any major differences between game store companies
+                    in terms of prices, selection, or other factors?
+                  </button>
+                </h2>
+                <div
+                  id="companycollapse4"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="company4"
+                  data-bs-parent="#companyRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, different game store companies may have different
+                    prices, selection, and other factors that set them apart
+                    from one another. It's always a good idea to compare prices
+                    and selection before making a purchase.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="company5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#companycollapse5"
+                    aria-expanded="false"
+                    aria-controls="company5"
+                  >
+                    Does your company have customer loyalty programs?
+                  </button>
+                </h2>
+                <div
+                  id="companycollapse5"
+                  class="accordion-collapse collapse bg-dark text-white"
+                  aria-labelledby="company5"
+                  data-bs-parent="#companyRAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, our company has customer loyalty programs that offer
+                    rewards for making purchases and other activities, such as
+                    trade-ins or pre-orders.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-info">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER CONTAINER -->
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="useful-links pt-1 col-lg-4 text-center align-self-center">
+            <div class="links row">
+              <div class="col-md-6 pb-3">
+                <h6 class="text-start">Links</h6>
+                <div class="footer-links">
+                  <li><a href="index.html">Homepage</a></li>
+                  <li><a href="gameshop.html">Store</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="faqs.html">FAQs and Support</a></li>
+                  <li><a href="#">Login and Register</a></li>
+                </div>
+              </div>
+              <div class="col-md-6 pb-3">
+                <h6 class="text-start">Contact</h6>
+                <div class="footer-contacts">
+                  <li>
+                    <a href=""><i class="fa-brands fa-discord"></i>Discord</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-telegram"></i>Telegram</a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                  </li>
+                  <li><i class="fa-solid fa-phone"></i>: +20292828</li>
+                  <li>
+                    <i class="fa-regular fa-envelope"></i>:
+                    tgc_company@gmail.com
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="newsletter col-lg-4 pb-1 align-self-center text-center">
+            <div class="content">
+              <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <span class="input-group-btn">
+                  <button class="btn" type="submit">Subscribe Now</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pt-4 text-center">
+            <div class="logo-company">
+              <img src="images/logo1.png" alt="" width="40" height="40" />
+              <img src="images/textlogo.png" alt="" width="150" />
+            </div>
+            <div class="row">
+              <div class="social-links">
+                <h3>Social Links:</h3>
+                <ul>
+                  <li>
+                    <a href="#" title="Facebook"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" title="Twitter"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" title="Youtube"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" title="Instagram"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" title="Linked-in"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="allrights row text-white">
+          <h6 class="text-center align-self-bottom">
+            All rights reserved 2023.
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!-- LOGIN MODAL -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="loginModal">
+        <div class="modal-content">
+          <div class="modal-header bg-black">
+            <img src="images/logo1.png" width="50" alt="" /><span class="mx-3"
+              ><h3>LOGIN</h3></span
+            >
+            <button
+              type="button"
+              class="btn-close bg-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            <form class="py-3">
+              <div class="form-group mb-3">
+                <label for="email">Email Address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="password">Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3 d-flex justify-content-between">
+                <div>
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="check-terms"
+                    name="check-terms"
+                    required
+                  />
+                  <label for="check-terms">Remember me</label>
                 </div>
                 <div><a href="">Forgot Password</a></div>
-                </div>         
-              </form>   
-            </div>
-            <div class="modal-footer bg-black">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-warning">Login</button>
-            </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-black">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-warning">Login</button>
           </div>
         </div>
       </div>
-        <!-- Registration MODAL -->
-      <div class="modal fade" id="regModal" tabindex="-1" aria-labelledby="regModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" id="regModal">
-          <div class="modal-content">
-            <div class="modal-header bg-black">
-              <img src="images/logo1.png" width="50" alt=""><span class="mx-3"><h3>REGISTRATION</h3></span>
-              <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-dark  text-white">
-              <form class="py-3">
-                <div class="form-group mb-3">
-                  <label for="fullname">Full Name:</label>
-                  <input type="text" class="form-control" id="fullname" name="fullname" required>
-                </div>
-                <div class="form-group mb-3">
-                  <label for="email">Email Address:</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="form-group mb-3">
-                  <label for="bday">Birthday:</label>
-                  <input type="date" class="form-control" id="bday" name="bday" required>
-                </div>
-                <div class="form-group mb-3">
+    </div>
+    <!-- Registration MODAL -->
+    <div
+      class="modal fade"
+      id="regModal"
+      tabindex="-1"
+      aria-labelledby="regModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" id="regModal">
+        <div class="modal-content">
+          <div class="modal-header bg-black">
+            <img src="images/logo1.png" width="50" alt="" /><span class="mx-3"
+              ><h3>REGISTRATION</h3></span
+            >
+            <button
+              type="button"
+              class="btn-close bg-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            <form class="py-3">
+              <div class="form-group mb-3">
+                <label for="fullname">Full Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullname"
+                  name="fullname"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email Address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="bday">Birthday:</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="bday"
+                  name="bday"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
                 <label for="gender">Gender:</label>
-                <select class="form-select" id="gender" aria-label="Default select example">
+                <select
+                  class="form-select"
+                  id="gender"
+                  aria-label="Default select example"
+                >
                   <option selected>Open this select menu</option>
                   <option value="1">Male</option>
                   <option value="2">Female</option>
                   <option value="3">Prefer not to say</option>
                 </select>
-                </div>
-                <div class="form-group mb-3">
-                  <label for="password">Password:</label>
-                  <input type="password" class="form-control" id="password" name="password" required>
-                </div>
-                <div class="form-group mb-3">
-                  <label for="confirm-password">Confirm Password:</label>
-                  <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
-                </div>
-                <div class="form-group mb-3">
-                <input type="checkbox" class="form-check-input" id="check-terms" name="check-terms" required>
-                  <label for="check-terms">I agree to the terms and conditions. (Required)</label>
-                </div>         
-              </form>   
-            </div>
-            <div class="modal-footer bg-black">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-danger">Submit</button>
-            </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="password">Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="confirm-password">Confirm Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="check-terms"
+                  name="check-terms"
+                  required
+                />
+                <label for="check-terms"
+                  >I agree to the terms and conditions. (Required)</label
+                >
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer bg-black">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-danger">Submit</button>
           </div>
         </div>
       </div>
-  
-        
-    
-        
-        
-      
-          
-  
-     
-    <script src="https://kit.fontawesome.com/4228106464.js" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/4228106464.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  </html>
+</html>

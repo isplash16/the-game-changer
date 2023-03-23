@@ -1,80 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: black !important;
-    
-    
+body {
+  background-color: black !important;
 }
-h2{
-  font-family: 'poppins' !important;
+h2 {
+  font-family: "poppins" !important;
   color: white !important;
   font-size: 4vh !important;
   transition: all 0.3s ease;
   cursor: pointer;
 }
-h2:hover{
+h2:hover {
   color: #ff2424 !important;
 }
 
-nav{
-    box-shadow: 0px 0px 2px white;
-    
-    
+nav {
+  box-shadow: 0px 0px 2px white;
 }
-.navbar .home{
-    color: cyan !important;
-    background: black;
-    border: cyan 2px solid;
-    border-radius: 5px;
+.navbar .home {
+  color: cyan !important;
+  background: black;
+  border: cyan 2px solid;
+  border-radius: 5px;
 }
-.navbar div{
-    font-weight: lighter;
-    font-family: 'bebas neue';
-    justify-content: space-around !important;
-    
+.navbar div {
+  font-weight: lighter;
+  font-family: "bebas neue";
+  justify-content: space-around !important;
 }
-.navbar-brand{
-    background-color: black;
-    border: 2px cyan solid;
-    border-radius: 5px;
-    transition: all 0.8s ease;
+.navbar-brand {
+  background-color: black;
+  border: 2px cyan solid;
+  border-radius: 5px;
+  transition: all 0.8s ease;
 }
-.navbar-brand:hover{
-    border-color: #ff2424;
+.navbar-brand:hover {
+  border-color: #ff2424;
 }
 
-.navbar a{
-    transition: all 0.8s ease;
-    font-size: 2vh;
+.navbar a {
+  transition: all 0.8s ease;
+  font-size: 2vh;
 }
-.collapse{
-    justify-content: space-between;
+.collapse {
+  justify-content: space-between;
 }
-.navbar a:hover{
-    
-    color: #ff2424 !important;
+.navbar a:hover {
+  color: #ff2424 !important;
 }
-.account{
-    text-align: center;
+.account {
+  text-align: center;
 }
-.account .btn{
-    background: transparent;
-    background: black;
-    color: cyan;
-    border: cyan solid 2px;
-    transition: all 0.8s ease;
+.account .btn {
+  background: transparent;
+  background: black;
+  color: cyan;
+  border: cyan solid 2px;
+  transition: all 0.8s ease;
 }
-.account .btn:hover{
-    color:#ff2424;
-    border-color: #ff2424;
+.account .btn:hover {
+  color: #ff2424;
+  border-color: #ff2424;
 }
-.cart-button{
+.cart-button {
   color: cyan !important;
   align-items: center;
   text-align: center;
@@ -83,35 +76,39 @@ nav{
   border: solid 2px cyan !important;
   transition: all 0.8s ease;
 }
-.cart-button:hover{
+.cart-button:hover {
   color: #ff2424;
   background-color: transparent !important;
   border: solid 2px #ff2424 !important;
 }
 /* END OF NAVBAR CSS */
-.textlogo{
-    width: 70% !important;
-    align-self: center;
-    margin: auto;
-    display: block;
+.textlogo {
+  min-width: 350px !important;
+  align-self: center;
+  margin: auto;
+  display: block;
+  width: 80% !important;
 }
-h1{
-    font-size: 4vh !important;
-    padding: 4vh;
+h1 {
+  font-size: 4vh !important;
+  padding: 4vh;
 }
-.promo img{
-align-self: center;
-box-shadow: 3px 3px 25px cyan;
-
+.promo img {
+  align-self: center;
+  box-shadow: 3px 3px 25px cyan;
 }
-.shopnow{
-    
-    border-radius: 20px;
-    font-family: 'black ops one' !important;
-    border: 3px solid cyan !important;
-    color: white !important;
-    font-size: 2vh !important;
-    
+.shopnow {
+  border-radius: 20px;
+  font-family: "black ops one" !important;
+  border: 3px solid cyan !important;
+  color: white !important;
+  font-size: 2vh !important;
+  transition: all 0.3s ease;
+}
+.shopnow:hover {
+  color: #ff2424 !important;
+  background: transparent !important;
+  border: 3px solid white !important;
 }
 .tsushima {
   background-image: url(images/games/ghost_of_tsushima_render_by_outlawninja_ddxmepq.png);
@@ -120,288 +117,292 @@ box-shadow: 3px 3px 25px cyan;
 
 /* Second Home Section */
 
-.featured h2:hover{
-    color: #ff2424;
+.featured h2:hover {
+  color: #ff2424;
 }
 /* Cards-Carousel */
-.cards-wrapper{
-    display: flex;
-    align-self: center;
-    justify-content: space-between !important;
-    
-    
+.cards-wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: space-between !important;
 }
-.card{
-    margin-right: 3vh;
-    margin-left: 4vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    text-align: center;
-    background-color: black !important;
-    box-shadow: 0px 3px 5px 1px cyan;
-    min-width: 300px !important;
-    height: auto;
-    
-   
-    
-    
-   
+.card {
+  margin-right: 3vh;
+  margin-left: 4vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  background-color: black !important;
+  box-shadow: 0px 3px 5px 1px cyan;
+  min-width: 300px !important;
+  height: auto;
 }
-.img-wrapper{
-    max-height: 40vh;
-    padding-top: 1vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    align-items: center;
-    justify-content: center;
-    
-    
+.img-wrapper {
+  max-height: 40vh;
+  padding-top: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  align-items: center;
+  justify-content: center;
 }
-.img-wrapper img{
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 10px;
+.img-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10px;
 }
-.card-title{
-    color: white !important;
-    font-family: 'black ops one';
+.card-title {
+  color: white !important;
+  font-family: "black ops one";
 }
-.card-text{
-    color: white;
+.card-text {
+  color: white;
 }
-.featured-gallery{
-    height: auto;
-    overflow: auto;
-    display: inline-flex;
+.featured-gallery {
+  height: auto;
+  overflow: auto;
+  display: inline-flex;
 }
 
 .featured-gallery::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
- .featured-gallery::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: cyan; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #ff2424; 
-  }
+  width: 10px;
+}
 
-  /* NEWS SECTION */
-  .news-section h2{
-    text-align: center !important;
-    
-  }
- 
-  
+/* Track */
+.featured-gallery::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: cyan;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2424;
+}
+
+/* NEWS SECTION */
+.news-section h2 {
+  text-align: center !important;
+}
+
+.news-item {
+  background-color: #243c4f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.news-thumbnail {
+  margin-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  min-height: 100px;
+}
+.news-thumbnail img {
+  width: 100%;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-title a {
+  color: white;
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.news-title a:hover {
+  color: #f00;
+}
+
+.news-excerpt {
+  color: whitesmoke;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.news-meta {
+  color: gainsboro;
+  font-size: 14px;
+}
+
+.news-meta span {
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
   .news-item {
-    background-color: #243c4f;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
-    overflow: hidden;
-  }
-  .news-thumbnail{
-    margin-top: 3vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    min-height: 100px;
-
+    margin-bottom: 20px;
   }
   .news-thumbnail img {
-    width: 100%;
-    
+    height: auto;
+    max-width: 100%;
   }
-  
-  .news-content {
-    padding: 20px;
-  }
-  
-  .news-title a {
-    color: white;
-    width: 80%;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .news-title a:hover {
-    color: #f00;
-  }
-  
-  .news-excerpt {
-    color: whitesmoke;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
-  .news-meta {
-    color: gainsboro;
-    font-size: 14px;
-  }
-  
-  .news-meta span {
-    margin-right: 10px;
-  }
-  
-  @media (max-width: 767px) {
-    .news-item {
-      margin-bottom: 20px;
-    }
-    .news-thumbnail img {
-      height: auto;
-      max-width: 100%;
-    }
-  }
+}
 
+/* FOOTER */
+.footer {
+  border-top: white solid 3px;
+  background-color: black !important;
+}
+.logo-company {
+  padding: 1vh;
+}
+.social-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1vh;
+}
+.social-links h3 {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2vh;
+  padding-left: 1vh;
+  align-self: center;
+  color: white;
+}
+.social-links ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  align-self: center;
+}
+.social-links li {
+  padding-right: 2vh;
+}
+.social-links a {
+  color: cyan;
+  font-size: 3vh;
+  transition: all 0.8s ease;
+}
+.social-links a:hover {
+  color: #ff2424;
+}
+/* NEWSLETTER SUBSCRIPTION */
+.newsletter {
+  background: cyan !important;
+  border: black 1vh solid;
+  border-radius: 10px !important;
 
-  /* FOOTER */
-  .footer{
-    border-top: white solid 3px;
-    background-color: black !important;
-  }
-  .logo-company{
-    padding: 1vh;
-  }
-  .social-links{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1vh;
-   
-  }
-  .social-links h3{
-    text-align: center;
-    font-family: 'bebas neue';
-    font-size: 2vh;
-    padding-left: 1vh;
-    align-self: center;
-    color: white;
-  }
-  .social-links ul{
-    text-decoration: none;
-    list-style: none;
-    display: inline-flex;
-    align-self: center;
-  }
-  .social-links li{
-    padding-right: 2vh;
-  }
-  .social-links a{
-    color: cyan;
-    font-size: 3vh;
-    transition: all 0.8s ease;
-  }
-  .social-links a:hover{
-    color: #ff2424;
-  }
-  /* NEWSLETTER SUBSCRIPTION */
-  .newsletter {
-    
-    background:cyan !important;
-    border: black 1vh solid;
-    border-radius: 10px !important;
-    
-    height: 80%;
-    }
-    
-    .newsletter .content {
-    max-width: 650px;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; }
+  height: 80%;
+}
 
-    .newsletter .content h2 {
-    color: black !important;
-    border: cyan 3px solid;
-    font-family: 'black ops one';
+.newsletter .content {
+  max-width: 650px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
 
-    margin-bottom: 40px; }
-    .newsletter .content .form-control {
-    height: 50px;
-    border-color: #ffffff;
-    border-radius:0;
-    margin-bottom: 0.5vh;
-    }
-    .newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #243c4f;
-    }
-    .newsletter .content .btn {
-    min-height: 50px; 
-    border-radius:0;
-    background: #ff2424 !important;
-    color: #fff;
-    font-weight:600;
-    }
-    /* USEFUL LINKS */
-    .links{
-        padding: 1vh;
-        text-align: center;
-        justify-content: center;
-    }
-  
-    .links li{
-        color: white;
-        font-family: 'bebas neue';
-        list-style: none;
-        border-bottom: black 2px solid;
-    }
-    .links li a{
-        display: block;
-        text-decoration: none;
-        color: white;
-        
-        transition: all 0.3s ease;
-    }
-    .links li a:hover{
-        color: cyan;
-    }
-    .links h6{
-        color: black !important;
-        font-family: 'bebas neue';
-        background-color: white;
-        text-align: center !important;
-    }
-    .allrights{
-        background-color: black !important;
-    }
-    .allrights h6{
-        font-family: 'bebas neue';
-        letter-spacing: 0.5em;
-        
-    }
-    .footer-contacts, .footer-links{
-        background-color: #ff2424;
-    }
-    /* MODAL CSS */
-    .modal-body iframe{
-      width: 100%;
-    }
-    .modal-body h4{
-      font-family: 'black ops one';
-      color: white;
-      text-transform: uppercase;
-    }
-    .modal-header span{
-      font-family: 'black ops one';
-      color: cyan;
-    }
+.newsletter .content h2 {
+  color: black !important;
+  border: cyan 3px solid;
+  font-family: "black ops one";
 
-    /* NEWS MODAL CSS */
-    .news-paragraphs{
-      text-align: center !important;
-    }
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0.5vh;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #ff2424 !important;
+  color: #fff;
+  font-weight: 600;
+}
+/* USEFUL LINKS */
+.links {
+  padding: 1vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.links li {
+  color: white;
+  font-family: "bebas neue";
+  list-style: none;
+  border-bottom: black 2px solid;
+}
+.links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+
+  transition: all 0.3s ease;
+}
+.links li a:hover {
+  color: cyan;
+}
+.links h6 {
+  color: black !important;
+  font-family: "bebas neue";
+  background-color: white;
+  text-align: center !important;
+}
+.allrights {
+  background-color: black !important;
+}
+.allrights h6 {
+  font-family: "bebas neue";
+  letter-spacing: 0.5em;
+}
+.footer-contacts,
+.footer-links {
+  background-color: #ff2424;
+}
+/* MODAL CSS */
+.modal-body iframe {
+  width: 100%;
+}
+.modal-body h4 {
+  font-family: "black ops one";
+  color: white;
+  text-transform: uppercase;
+}
+.modal-header span {
+  font-family: "black ops one";
+  color: cyan;
+}
+
+/* NEWS MODAL CSS */
+.news-paragraphs {
+  text-align: center !important;
+}
+/* Carousel */
+.carousel-wrapper {
+  min-width: 300px;
+
+  margin: auto;
+}
+.carousel-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+@media screen and (max-width: 991px) {
+  .home-content {
+    background-image: url(images/games/ghost_of_tsushima_render_by_outlawninja_ddxmepq.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

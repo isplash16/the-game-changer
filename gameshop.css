@@ -1,543 +1,528 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Newsreader:opsz,wght@6..72,200&family=Oswald&family=Pacifico&family=Poppins:wght@800&family=Rubik&family=Tilt+Warp&family=VT323&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: black !important;
-    
-    
+body {
+  background-color: black !important;
 }
 @media only screen and (min-width: 768px) {
-    body{
-        height: auto;
-    }
+  body {
+    height: auto;
+  }
 }
-h2{
-    font-family: 'poppins' !important;
-    color: white !important;
-    font-size: 4vh !important;
-    transition: all 0.3s ease;
-    cursor: pointer;
+h2 {
+  font-family: "poppins" !important;
+  color: white !important;
+  font-size: 4vh !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-h2:hover{
-    color: #ff2424 !important;
+h2:hover {
+  color: #ff2424 !important;
 }
 /* NAVBAR CSS */
-nav{
-    box-shadow: 0px 0px 2px white;
-    
-    
+nav {
+  box-shadow: 0px 0px 2px white;
 }
-.navbar .gameshop{
-    color: cyan !important;
-    background: black;
-    border: cyan 2px solid;
-    border-radius: 5px;
+.navbar .gameshop {
+  color: cyan !important;
+  background: black;
+  border: cyan 2px solid;
+  border-radius: 5px;
 }
-.navbar div{
-    font-weight: lighter;
-    font-family: 'bebas neue';
-    justify-content: space-around !important;
-    
+.navbar div {
+  font-weight: lighter;
+  font-family: "bebas neue";
+  justify-content: space-around !important;
 }
-.navbar-brand{
-    background-color: black;
-    border: 2px cyan solid;
-    border-radius: 5px;
-    transition: all 0.8s ease;
+.navbar-brand {
+  background-color: black;
+  border: 2px cyan solid;
+  border-radius: 5px;
+  transition: all 0.8s ease;
 }
-.navbar-brand:hover{
-    border-color: #ff2424;
+.navbar-brand:hover {
+  border-color: #ff2424;
 }
 
-.navbar a{
-    transition: all 0.8s ease;
-    font-size: 2vh;
+.navbar a {
+  transition: all 0.8s ease;
+  font-size: 2vh;
 }
-.collapse{
-    justify-content: space-between;
+.collapse {
+  justify-content: space-between;
 }
-.navbar a:hover{
-    
-    color: #ff2424 !important;
+.navbar a:hover {
+  color: #ff2424 !important;
 }
-.account{
-    text-align: center;
+.account {
+  text-align: center;
 }
-.account .btn{
-    background: transparent;
-    background: black;
-    color: cyan;
-    border: cyan solid 2px;
-    transition: all 0.8s ease;
+.account .btn {
+  background: transparent;
+  background: black;
+  color: cyan;
+  border: cyan solid 2px;
+  transition: all 0.8s ease;
 }
-.account .btn:hover{
-    color:#ff2424;
-    border-color: #ff2424;
+.account .btn:hover {
+  color: #ff2424;
+  border-color: #ff2424;
 }
-.cart-button{
-    color: cyan !important;
-    align-items: center;
-    text-align: center;
-    font-size: 4vh;
-    background-color: black !important;
-    border: solid 2px cyan !important;
-    transition: all 0.8s ease;
+.cart-button {
+  color: cyan !important;
+  align-items: center;
+  text-align: center;
+  font-size: 4vh;
+  background-color: black !important;
+  border: solid 2px cyan !important;
+  transition: all 0.8s ease;
 }
-.cart-button:hover{
-    color: #ff2424;
-    background-color: transparent !important;
-    border: solid 2px #ff2424 !important;
-
-
+.cart-button:hover {
+  color: #ff2424;
+  background-color: transparent !important;
+  border: solid 2px #ff2424 !important;
 }
 /*END OF NAVBAR CSS*/
 
-.searchbar{
-    background-color: #c0c0c0;
-    position:fixed;
-    top:10;
-    width:100%;
-    z-index:100;
+.searchbar {
+  background-color: #c0c0c0;
+  position: fixed;
+  top: 10;
+  width: 100%;
+  z-index: 100;
 }
-.categories-button{
-    font-family: 'bebas neue' !important;
-    background-color: black !important;
-    color: cyan !important;
-    transition: all 0.8s ease !important;
+.categories-button {
+  font-family: "bebas neue" !important;
+  background-color: black !important;
+  color: cyan !important;
+  transition: all 0.8s ease !important;
 }
-.categories-button:hover{
-    
-    background-color: #243c4f !important;
-    color: #ff2424 !important;
+.categories-button:hover {
+  background-color: #243c4f !important;
+  color: #ff2424 !important;
 }
 
 /* Carousel CSS */
-.carousel-wrapper{
-    width: 100%;
-    height: 700px;
-    padding-top: 1vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: contain !important;
+.carousel-wrapper {
+  width: 100%;
+  height: 700px;
+  padding-top: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain !important;
 }
-.carousel-wrapper img{
-    
-    width: 100%;
-    height: 100%;
-    
+.carousel-wrapper img {
+  width: 100%;
+  height: 100%;
 }
 /* END OF CAROUSEL CSS */
 
 /* Gallery CSS */
-.row-wrapper{
-    text-align: center;
-    overflow: auto;
-    width: 100%;
+.row-wrapper {
+  text-align: center;
+  overflow: auto;
+  width: 100%;
 }
-.img-row{
-    width: 100%;
+.img-row {
+  width: 100%;
 }
-.img-wrapper{
-    width: 100%;
-   justify-content: space-between;
+.img-wrapper {
+  width: 100%;
+  justify-content: space-between;
 }
-.img-wrapper img{
-    max-width: 100px;
-    
-    border: cyan solid 3px;
+.img-wrapper img {
+  max-width: 100px;
+
+  border: cyan solid 3px;
 }
 /* END OF GALLERY CSS */
 
 /* PLATFORMS CSS */
-.platform-wrapper{
-    height: 400px;
-    width: 100%;
-    background-color: #ff2424;
-    border-radius: 40px;
+.platform-wrapper {
+  height: 400px;
+  width: 100%;
+  background-color: #ff2424;
+  border-radius: 40px;
 }
-.plat-img-wrapper{
-    justify-content:  center;
-    height: 300px;
-    width: 400px;
-    padding: 20px;
+.plat-img-wrapper {
+  justify-content: center;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
 }
-.plat-img-wrapper img{
-    width: 100%;
-    height: 100%;
+.plat-img-wrapper img {
+  width: 100%;
+  height: 100%;
 }
 /* SELLERS GALLERY */
-.genre-h2{
-    font-family: 'black ops one';
-    color: cyan;
+.genre-h2 {
+  font-family: "black ops one";
+  color: cyan;
 }
 
-.seller-image{
-    position: relative;
-    display: inline-block;
-    width: 160px;
-    margin: auto;
-    
+.seller-image {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  margin: auto;
 }
-.seller-image img{
-    display: block;
-    width: 100%;
+.seller-image img {
+  display: block;
+  width: 100%;
 }
-.seller-image .logoshop{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    
-    transform: translate(-50%, -50%); 
-    text-align: center;
-    display: none ;
-    background-color: rgba(108, 122, 137, 0.6);
-    
-}
-.shop-card:hover .logoshop{
-    display: block;
-    
-}
-.shop-card:hover .shop-pic{
-    filter: blur(2px);
-    
-}
-.shop-scroll{
-    max-height: 60vh;
-    overflow: auto;
-}
-.shop-card{
-    cursor: pointer;
-    transition: all 0.4s ease;
-    position: relative;
-}
-.shop-card:hover{
-    background-color: #243c4f !important;
+.seller-image .logoshop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+  background-color: rgba(108, 122, 137, 0.6);
 }
-.card-body button{
-    text-transform: uppercase;
-    font-family: 'black ops one';
-    border: cyan solid 4px;
-    text-align: center;
-    background: transparent;
+.shop-card:hover .logoshop {
+  display: block;
 }
-.card-body button:hover{
-    background-color: #ff2424;
-    border: #ff2424 solid 4px;
+.shop-card:hover .shop-pic {
+  filter: blur(2px);
 }
-.card-title{
-    margin-bottom: 1vh !important;
-    font-family: 'black ops one';
-    color: cyan !important;
-    
+.shop-scroll {
+  max-height: 60vh;
+  overflow: auto;
 }
-.card-text{
-    margin-bottom: 1vh !important;
-    font-family: 'bebas neue';
-    word-spacing: 0.3em;
-    
-    
+.shop-card {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
 }
-.card-body .price{
-    align-items: center !important;
+.shop-card:hover {
+  background-color: #243c4f !important;
 }
-.price{
-    font-family: 'black ops one';
-    padding-top: 1rem;
-    
+.card-body button {
+  text-transform: uppercase;
+  font-family: "black ops one";
+  border: cyan solid 4px;
+  text-align: center;
+  background: transparent;
+}
+.card-body button:hover {
+  background-color: #ff2424;
+  border: #ff2424 solid 4px;
+}
+.card-title {
+  margin-bottom: 1vh !important;
+  font-family: "black ops one";
+  color: cyan !important;
+}
+.card-text {
+  margin-bottom: 1vh !important;
+  font-family: "bebas neue";
+  word-spacing: 0.3em;
+}
+.card-body .price {
+  align-items: center !important;
+}
+.price {
+  font-family: "black ops one";
+  padding-top: 1rem;
 }
 /* MULTI TAB CSS CODES */
 /* Gallery CSS */
-.nav-link{
-    font-family: 'bebas neue' !important;
-    font-size: 2vh !important;
+.nav-link {
+  font-family: "bebas neue" !important;
+  font-size: 2vh !important;
 }
 .gallery-platforms {
-    
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-  .column{
-    text-align: center;
-    background-color:black;
-    border: white solid 3px;
-  }
- 
- 
-  
-  h3, p {
-    margin: 10px 0;
-  }
-  
-  .gallery-platforms .pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-  }
-  
-  .page-item a {
-    color: black;
-    
-    text-decoration: none;
-    
-    border-radius: 4px;
-    margin: 0 5px;
-    font-family:'black ops one'
-  }
-  
-  .pagination a:hover {
-    background-color: #ddd;
-    color: #ff2424;
-  }
-  
-  .pagination .active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  .column h3{
-    color: cyan;
-    font-family: 'poppins';
-    font-size: 2vh;
-  }
-  .column p{
-    color: white;
-    font-family: 'poppins';
-    font-size: 1.5vh;
-  }
-  .platform-image{
-    padding-top: 1vh ;
-    position: relative;
-    display: inline-block;
-    min-width: 200px;
-    margin: auto;
-    margin-top: 1em;
-    min-height: 210px;
-    align-items: center;
-    background-color: #243c4f;
-    border-radius: 20px;
-    
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
 }
-.platform-image img{ 
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    object-fit: contain;
-    
+.column {
+  text-align: center;
+  background-color: black;
+  border: white solid 3px;
 }
-.platform-image button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    text-transform: uppercase;
-    font-family: 'black ops one';
-    border: cyan solid 4px;
-    transform: translate(-50%, -50%); 
-    text-align: center;
-    display: none ;
-    background-color: rgba(108, 122, 137, 0.6);
-    
+
+h3,
+p {
+  margin: 10px 0;
 }
-.platform-image button:hover{
-    background-color: #ff2424;
-    border: #ff2424 solid 4px;
+
+.gallery-platforms .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-.column:hover .platform-image button{
-    display: block;
-    
+
+.page-item a {
+  color: black;
+
+  text-decoration: none;
+
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: "black ops one";
 }
-.column:hover h3{
-    color: #ff2424 !important;
+
+.pagination a:hover {
+  background-color: #ddd;
+  color: #ff2424;
 }
-.column:hover .platform-image img{
-    filter: blur(4px);
+
+.pagination .active {
+  background-color: #4caf50;
+  color: white;
 }
-.nav-item button{
-    width: 12vh;
+.column h3 {
+  color: cyan;
+  font-family: "poppins";
+  font-size: 2vh;
+}
+.column p {
+  color: white;
+  font-family: "poppins";
+  font-size: 1.5vh;
+}
+.platform-image {
+  padding-top: 1vh;
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  margin: auto;
+  margin-top: 1em;
+  min-height: 210px;
+  align-items: center;
+  background-color: #243c4f;
+  border-radius: 20px;
+}
+.platform-image img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+.platform-image button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  text-transform: uppercase;
+  font-family: "black ops one";
+  border: cyan solid 4px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+  background-color: rgba(108, 122, 137, 0.6);
+}
+.platform-image button:hover {
+  background-color: #ff2424;
+  border: #ff2424 solid 4px;
+}
+.column:hover .platform-image button {
+  display: block;
+}
+.column:hover h3 {
+  color: #ff2424 !important;
+}
+.column:hover .platform-image img {
+  filter: blur(4px);
+}
+.nav-item button {
+  width: 12vh;
 }
 /* MODAL */
-.modal-title{
-    font-family: 'black ops one';
-    color: white !important;
+.modal-title {
+  font-family: "black ops one";
+  color: white !important;
 }
-.modal-body iframe{
-   width: 100%;
- }
-.modal-body h4{
-    font-family: 'black ops one';
-   text-transform: uppercase !important;
+.modal-body iframe {
+  width: 100%;
+}
+.modal-body h4 {
+  font-family: "black ops one";
+  text-transform: uppercase !important;
 }
 
- /* FOOTER */
- .footer{
-    border-top: white solid 3px;
-    background-color: black !important;
-    
-  }
-  .logo-company{
-    padding: 1vh;
-  }
-  .social-links{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1vh;
-   
-  }
-  .social-links h3{
-    text-align: center;
-    font-family: 'bebas neue';
-    font-size: 2vh;
-    padding-left: 1vh;
-    align-self: center;
-    color: white;
-  }
-  .social-links ul{
-    text-decoration: none;
-    list-style: none;
-    display: inline-flex;
-    align-self: center;
-  }
-  .social-links li{
-    padding-right: 2vh;
-  }
-  .social-links a{
-    color: cyan;
-    font-size: 3vh;
-    transition: all 0.8s ease;
-  }
-  .social-links a:hover{
-    color: #ff2424;
-  }
-  /* NEWSLETTER SUBSCRIPTION */
-  .newsletter {
-    
-    background:cyan !important;
-    border: black 1vh solid;
-    border-radius: 10px !important;
-    
-    height: 80%;
-    }
-    
-    .newsletter .content {
-    max-width: 650px;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; }
+/* FOOTER */
+.footer {
+  border-top: white solid 3px;
+  background-color: black !important;
+}
+.logo-company {
+  padding: 1vh;
+}
+.social-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1vh;
+}
+.social-links h3 {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 2vh;
+  padding-left: 1vh;
+  align-self: center;
+  color: white;
+}
+.social-links ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  align-self: center;
+}
+.social-links li {
+  padding-right: 2vh;
+}
+.social-links a {
+  color: cyan;
+  font-size: 3vh;
+  transition: all 0.8s ease;
+}
+.social-links a:hover {
+  color: #ff2424;
+}
+/* NEWSLETTER SUBSCRIPTION */
+.newsletter {
+  background: cyan !important;
+  border: black 1vh solid;
+  border-radius: 10px !important;
 
-    .newsletter .content h2 {
-    color: black !important;
-    border: cyan 3px solid;
-    font-family: 'black ops one';
+  height: 80%;
+}
 
-    margin-bottom: 40px; }
-    .newsletter .content .form-control {
-    height: 50px;
-    border-color: #ffffff;
-    border-radius:0;
-    margin-bottom: 0.5vh;
-    }
-    .newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #243c4f;
-    }
-    .newsletter .content .btn {
-    min-height: 50px; 
-    border-radius:0;
-    background: #ff2424 !important;
-    color: #fff;
-    font-weight:600;
-    }
-    /* USEFUL LINKS */
-    .links{
-        padding: 1vh;
-        text-align: center;
-        justify-content: center;
-    }
-  
-    .links li{
-        color: white;
-        font-family: 'bebas neue';
-        list-style: none;
-        border-bottom: black 2px solid;
-    }
-    .links li a{
-        display: block;
-        text-decoration: none;
-        color: white;
-        
-        transition: all 0.3s ease;
-    }
-    .links li a:hover{
-        color: cyan;
-    }
-    .links h6{
-        color: black !important;
-        font-family: 'bebas neue';
-        background-color: white;
-        text-align: center !important;
-    }
-    .allrights{
-        background-color: black !important;
-    }
-    .allrights h6{
-        font-family: 'bebas neue';
-        letter-spacing: 0.5em;
-        
-    }
-    .footer-contacts, .footer-links{
-        background-color: #ff2424;
-    }
-    .shop-scroll::-webkit-scrollbar {
-        width: 10px;
-      }
-      
-      /* Track */
-     .shop-scroll::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        border-radius: 10px;
-      }
-       
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: cyan; 
-        border-radius: 10px;
-      }
-      
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #ff2424; 
-      }
-      .row-wrapper::-webkit-scrollbar {
-        width: 10px;
-      }
-      
-      /* Track */
-     .row-wrapper::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        border-radius: 10px;
-      }
+.newsletter .content {
+  max-width: 650px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
 
-      @media (max-width: 767px) {
-        .nav-item button{
-            width:10vh
-        }
-    }
-    .modal-header span{
-        font-family: 'black ops one';
-        color: cyan;
-      }
-    
+.newsletter .content h2 {
+  color: black !important;
+  border: cyan 3px solid;
+  font-family: "black ops one";
+
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0.5vh;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #ff2424 !important;
+  color: #fff;
+  font-weight: 600;
+}
+/* USEFUL LINKS */
+.links {
+  padding: 1vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.links li {
+  color: white;
+  font-family: "bebas neue";
+  list-style: none;
+  border-bottom: black 2px solid;
+}
+.links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+
+  transition: all 0.3s ease;
+}
+.links li a:hover {
+  color: cyan;
+}
+.links h6 {
+  color: black !important;
+  font-family: "bebas neue";
+  background-color: white;
+  text-align: center !important;
+}
+.allrights {
+  background-color: black !important;
+}
+.allrights h6 {
+  font-family: "bebas neue";
+  letter-spacing: 0.5em;
+}
+.footer-contacts,
+.footer-links {
+  background-color: #ff2424;
+}
+.shop-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.shop-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: cyan;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2424;
+}
+.row-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.row-wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .nav-item button {
+    width: 10vh;
+  }
+}
+.modal-header span {
+  font-family: "black ops one";
+  color: cyan;
+}
+@media screen and (max-width: 1365px) {
+  .shop-card {
+    flex-direction: column;
+    margin: auto;
+  }
+  .shop-card .col-xl-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .nav-item h4 {
+    display: none !important;
+  }
+}

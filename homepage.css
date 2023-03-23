@@ -373,6 +373,7 @@ h1 {
 /* MODAL CSS */
 .modal-body iframe {
   width: 100%;
+  object-fit: contain;
 }
 .modal-body h4 {
   font-family: "black ops one";
@@ -404,5 +405,9 @@ h1 {
     background-image: url(images/games/ghost_of_tsushima_render_by_outlawninja_ddxmepq.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom left;
   }
+}
+.modal-body iframe {
+  border: 3x solid cyan !important;
 }

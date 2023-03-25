@@ -411,3 +411,22 @@ h1 {
 .modal-body iframe {
   border: 3x solid cyan !important;
 }
+@media screen and (max-width: 280px) {
+  .textlogo {
+    min-width: 250px !important;
+  }
+  .carousel-wrapper img {
+    width: 100% !important;
+  }
+  .carousel-wrapper {
+    min-width: 250px !important;
+  }
+  .img-wrapper {
+    min-width: 100px !important;
+    max-height: 20vh;
+  }
+  .card {
+    min-width: 80vw !important;
+    margin-left: 6vw;
+  }
+}
